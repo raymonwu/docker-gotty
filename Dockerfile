@@ -1,5 +1,5 @@
-FROM debian:8.1
-MAINTAINER @abdul <abdul.qabiz@gmail.com>
+FROM debian:8.5
+MAINTAINER @abdul <abdul.qabiz@gmail.com> && Raymon Wu <raymonwu@hotmail.com>
 
 RUN apt-get update && apt-get -y dist-upgrade
 RUN apt-get install -y golang git
